@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Book list</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form__wrapper">
+            <label class="form__title" id="form_title">Book</label>
+            <form id="form" class="form__inputs">
+                <label for="author">Author</label>
+                <br>
+                <input type="text" maxlength="36" id="author">
+                <br>
+                <label for="date" >Date</label>
+                <br>
+                <input type="date" id="date">
+                <br>
+                <label for="title" >Title</label>
+                <br>
+                <input type="text" maxlength="36" id="title">
+                <br>
+                <label for="pages">Pages</label>
+                <br>
+                <input type="number" maxlength="10" id="pages">
+            </form>
+            <a href="#" class="form__button" id="save">SAVE</a>
+            <a href="#" class="form__button hide" id="cancel">Cancel</a>
+        </div>
+        <div class="table__wrapper">
+            <table id="table" class="table">
+            </table>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
